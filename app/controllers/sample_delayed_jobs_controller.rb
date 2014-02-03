@@ -1,0 +1,2 @@
+class SampleDelayedJobsController < ApplicationController
+end
