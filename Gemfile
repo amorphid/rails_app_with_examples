@@ -11,14 +11,11 @@ gem "sqlite3", "1.3.8"
 gem "turbolinks", "2.2.1"
 gem "uglifier", "2.4.0"
 
-group :development do
-  gem "fabrication", "2.9.6"
-end
-
 group :doc do
   gem "sdoc", "0.4.0", require: false
 end
 
 group :test do
+  gem "fabrication", "2.9.6"
   gem "rspec-rails", "2.14.1"
 end
