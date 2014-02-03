@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe SampleDelayedJob do
-  subject { SampleDelayedJob.create }
+  subject { Fabricate(:sample_delayed_job) }
 
   context "#description" do
     it "diplays message, includng record ID" do
