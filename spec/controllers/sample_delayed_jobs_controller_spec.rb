@@ -9,4 +9,3 @@ describe SampleDelayedJobsController do
     end
   end
 end
-
