@@ -15,5 +15,5 @@ group :doc do
 end
 
 group :test do
-  gem "rspec", "2.14.1"
+  gem "rspec-rails", "2.14.1"
 end
