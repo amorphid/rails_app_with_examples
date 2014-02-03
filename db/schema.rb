@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140203012722) do
+ActiveRecord::Schema.define(version: 20140203045718) do
 
   create_table "sample_delayed_jobs", force: true do |t|
-    t.string "description"
   end
 
 end
